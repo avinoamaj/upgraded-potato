@@ -2243,18 +2243,18 @@ if (reversed == null) { reversed = false; }
 		var gameMovie = new lib.gameMovie;
 		
 		//יצירת סאונדים למשחק
-		createjs.Sound.registerSound("/sounds/BGMusic.mp3","BGMusic")
-		createjs.Sound.registerSound("/sounds/rightChoice.wav","rightChoice")
-		createjs.Sound.registerSound("/sounds/wrongChoice.wav","wrongChoice")
-		createjs.Sound.registerSound("/sounds/wellDone.wav","wellDone")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/BGMusic.mp3","BGMusic")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/rightChoice.wav","rightChoice")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/wrongChoice.wav","wrongChoice")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/wellDone.wav","wellDone")
 		//יצירת סאונדים לאנימציית פתיחה
-		createjs.Sound.registerSound("/sounds/helloThere.wav","helloThere")
-		createjs.Sound.registerSound("/sounds/welcomeToMyLab.wav","welcomeToMyLab")
-		createjs.Sound.registerSound("/sounds/rightAtThePeak.wav","rightAtThePeak")
-		createjs.Sound.registerSound("/sounds/ohNo.wav","ohNo")
-		createjs.Sound.registerSound("/sounds/theDocsFellOff.wav","theDocsFellOff")
-		createjs.Sound.registerSound("/sounds/weMustCollectThem.wav","weMustCollectThem")
-		createjs.Sound.registerSound("/sounds/canYouHelp.wav","canYouHelp")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/helloThere.wav","helloThere")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/welcomeToMyLab.wav","welcomeToMyLab")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/rightAtThePeak.wav","rightAtThePeak")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/ohNo.wav","ohNo")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/theDocsFellOff.wav","theDocsFellOff")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/weMustCollectThem.wav","weMustCollectThem")
+		createjs.Sound.registerSound("https://avinoamaj.github.io/upgraded-potato//sounds/canYouHelp.wav","canYouHelp")
 		var BGMusic;
 		
 		//רכיבי קומבובוקס//
@@ -3093,26 +3093,26 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/כתיבהללוח_.png?1612891586652", id:"כתיבהללוח"},
-		{src:"images/proffessorBETA_atlas_1.png?1612891585398", id:"proffessorBETA_atlas_1"},
-		{src:"images/proffessorBETA_atlas_2.png?1612891585398", id:"proffessorBETA_atlas_2"},
-		{src:"images/proffessorBETA_atlas_3.png?1612891585398", id:"proffessorBETA_atlas_3"},
-		{src:"images/proffessorBETA_atlas_4.png?1612891585398", id:"proffessorBETA_atlas_4"},
-		{src:"images/proffessorBETA_atlas_5.png?1612891585398", id:"proffessorBETA_atlas_5"},
-		{src:"images/proffessorBETA_atlas_6.png?1612891585398", id:"proffessorBETA_atlas_6"},
-		{src:"images/proffessorBETA_atlas_7.png?1612891585398", id:"proffessorBETA_atlas_7"},
-		{src:"images/proffessorBETA_atlas_8.png?1612891585399", id:"proffessorBETA_atlas_8"},
-		{src:"images/proffessorBETA_atlas_9.png?1612891585399", id:"proffessorBETA_atlas_9"},
-		{src:"images/proffessorBETA_atlas_10.png?1612891585400", id:"proffessorBETA_atlas_10"},
-		{src:"images/proffessorBETA_atlas_11.png?1612891585400", id:"proffessorBETA_atlas_11"},
-		{src:"images/proffessorBETA_atlas_12.png?1612891585400", id:"proffessorBETA_atlas_12"},
-		{src:"images/proffessorBETA_atlas_13.png?1612891585400", id:"proffessorBETA_atlas_13"},
-		{src:"sounds/helloThere.mp3?1612891586652", id:"helloThere"},
-		{src:"sounds/rightChoice.mp3?1612891586652", id:"rightChoice"},
-		{src:"sounds/wrongChoice.mp3?1612891586652", id:"wrongChoice"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612891586652", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612891586652", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1612891586652", id:"an.ComboBox"}
+		{src:"images/כתיבהללוח_.png?1612892748081", id:"כתיבהללוח"},
+		{src:"images/proffessorBETA_atlas_1.png?1612892747609", id:"proffessorBETA_atlas_1"},
+		{src:"images/proffessorBETA_atlas_2.png?1612892747609", id:"proffessorBETA_atlas_2"},
+		{src:"images/proffessorBETA_atlas_3.png?1612892747609", id:"proffessorBETA_atlas_3"},
+		{src:"images/proffessorBETA_atlas_4.png?1612892747609", id:"proffessorBETA_atlas_4"},
+		{src:"images/proffessorBETA_atlas_5.png?1612892747609", id:"proffessorBETA_atlas_5"},
+		{src:"images/proffessorBETA_atlas_6.png?1612892747609", id:"proffessorBETA_atlas_6"},
+		{src:"images/proffessorBETA_atlas_7.png?1612892747609", id:"proffessorBETA_atlas_7"},
+		{src:"images/proffessorBETA_atlas_8.png?1612892747611", id:"proffessorBETA_atlas_8"},
+		{src:"images/proffessorBETA_atlas_9.png?1612892747611", id:"proffessorBETA_atlas_9"},
+		{src:"images/proffessorBETA_atlas_10.png?1612892747611", id:"proffessorBETA_atlas_10"},
+		{src:"images/proffessorBETA_atlas_11.png?1612892747611", id:"proffessorBETA_atlas_11"},
+		{src:"images/proffessorBETA_atlas_12.png?1612892747611", id:"proffessorBETA_atlas_12"},
+		{src:"images/proffessorBETA_atlas_13.png?1612892747612", id:"proffessorBETA_atlas_13"},
+		{src:"sounds/helloThere.mp3?1612892748081", id:"helloThere"},
+		{src:"sounds/rightChoice.mp3?1612892748081", id:"rightChoice"},
+		{src:"sounds/wrongChoice.mp3?1612892748081", id:"wrongChoice"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612892748081", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1612892748081", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1612892748081", id:"an.ComboBox"}
 	],
 	preloads: []
 };
