@@ -2974,14 +2974,12 @@ if (reversed == null) { reversed = false; }
 			//פונקציית הטיקר של המשחק עצמו
 			function tock() {
 				if(ismousedown == true){
-		/*			backGround.cursor = "url('https://avinoamaj.github.io/upgraded-potato//cursors/handclosed.cur'), auto"
-		*/
-					backGround.cursor = "url('/cursors/handclosed.cur'), auto"
+					backGround.cursor = "url('https://avinoamaj.github.io/upgraded-potato/cursors/handclosed.cur'), auto"
+					/*backGround.cursor = "url('/cursors/handclosed.cur'), auto"*/
 				}
 				else{
-		/*				backGround.cursor = "url('https://avinoamaj.github.io/upgraded-potato//cursors/handopen.cur'), auto"
-		*/
-						backGround.cursor = "url('/cursors/handopen.cur'), auto"
+						backGround.cursor = "url('https://avinoamaj.github.io/upgraded-potato/cursors/handopen.cur'), auto"
+						/*backGround.cursor = "url('/cursors/handopen.cur'), auto"*/
 				}
 				//כל טיק מוריד את גובה המסמך לפי המהירות שנקבעה
 				docBase.y += fallSpeed
@@ -3395,27 +3393,27 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_36.png?1612954220423", id:"CachedBmp_36"},
-		{src:"images/כתיבהללוח_.png?1612954220423", id:"כתיבהללוח"},
-		{src:"images/proffessorBETA_atlas_1.png?1612954220149", id:"proffessorBETA_atlas_1"},
-		{src:"images/proffessorBETA_atlas_2.png?1612954220149", id:"proffessorBETA_atlas_2"},
-		{src:"images/proffessorBETA_atlas_3.png?1612954220149", id:"proffessorBETA_atlas_3"},
-		{src:"images/proffessorBETA_atlas_4.png?1612954220149", id:"proffessorBETA_atlas_4"},
-		{src:"images/proffessorBETA_atlas_5.png?1612954220149", id:"proffessorBETA_atlas_5"},
-		{src:"images/proffessorBETA_atlas_6.png?1612954220149", id:"proffessorBETA_atlas_6"},
-		{src:"images/proffessorBETA_atlas_7.png?1612954220149", id:"proffessorBETA_atlas_7"},
-		{src:"images/proffessorBETA_atlas_8.png?1612954220149", id:"proffessorBETA_atlas_8"},
-		{src:"images/proffessorBETA_atlas_9.png?1612954220150", id:"proffessorBETA_atlas_9"},
-		{src:"images/proffessorBETA_atlas_10.png?1612954220150", id:"proffessorBETA_atlas_10"},
-		{src:"images/proffessorBETA_atlas_11.png?1612954220150", id:"proffessorBETA_atlas_11"},
-		{src:"images/proffessorBETA_atlas_12.png?1612954220150", id:"proffessorBETA_atlas_12"},
-		{src:"images/proffessorBETA_atlas_13.png?1612954220150", id:"proffessorBETA_atlas_13"},
-		{src:"sounds/helloThere.mp3?1612954220423", id:"helloThere"},
-		{src:"sounds/rightChoice.mp3?1612954220423", id:"rightChoice"},
-		{src:"sounds/wrongChoice.mp3?1612954220423", id:"wrongChoice"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612954220423", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612954220423", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1612954220423", id:"an.ComboBox"}
+		{src:"images/CachedBmp_36.png?1612954909360", id:"CachedBmp_36"},
+		{src:"images/כתיבהללוח_.png?1612954909360", id:"כתיבהללוח"},
+		{src:"images/proffessorBETA_atlas_1.png?1612954909022", id:"proffessorBETA_atlas_1"},
+		{src:"images/proffessorBETA_atlas_2.png?1612954909022", id:"proffessorBETA_atlas_2"},
+		{src:"images/proffessorBETA_atlas_3.png?1612954909022", id:"proffessorBETA_atlas_3"},
+		{src:"images/proffessorBETA_atlas_4.png?1612954909023", id:"proffessorBETA_atlas_4"},
+		{src:"images/proffessorBETA_atlas_5.png?1612954909023", id:"proffessorBETA_atlas_5"},
+		{src:"images/proffessorBETA_atlas_6.png?1612954909023", id:"proffessorBETA_atlas_6"},
+		{src:"images/proffessorBETA_atlas_7.png?1612954909023", id:"proffessorBETA_atlas_7"},
+		{src:"images/proffessorBETA_atlas_8.png?1612954909023", id:"proffessorBETA_atlas_8"},
+		{src:"images/proffessorBETA_atlas_9.png?1612954909023", id:"proffessorBETA_atlas_9"},
+		{src:"images/proffessorBETA_atlas_10.png?1612954909023", id:"proffessorBETA_atlas_10"},
+		{src:"images/proffessorBETA_atlas_11.png?1612954909023", id:"proffessorBETA_atlas_11"},
+		{src:"images/proffessorBETA_atlas_12.png?1612954909023", id:"proffessorBETA_atlas_12"},
+		{src:"images/proffessorBETA_atlas_13.png?1612954909023", id:"proffessorBETA_atlas_13"},
+		{src:"sounds/helloThere.mp3?1612954909360", id:"helloThere"},
+		{src:"sounds/rightChoice.mp3?1612954909360", id:"rightChoice"},
+		{src:"sounds/wrongChoice.mp3?1612954909360", id:"wrongChoice"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612954909360", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1612954909360", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1612954909360", id:"an.ComboBox"}
 	],
 	preloads: []
 };
